@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faceted-project>
+  <runtime name="zulu11.48.21-ca-jdk11.0.11-win_x64"/>
+  <secondary-runtime name="jre"/>
+  <installed facet="java" version="11"/>
+  <installed facet="jpt.jpa" version="2.2"/>
+</faceted-project>
