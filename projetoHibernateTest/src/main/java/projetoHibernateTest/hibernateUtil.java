@@ -1,8 +1,8 @@
 package projetoHibernateTest;
 
-import jakarta.persistence.EntityManager;
-import jakarta.persistence.EntityManagerFactory;
-import jakarta.persistence.Persistence;
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
 
 public class hibernateUtil {
 	
@@ -26,6 +26,9 @@ public class hibernateUtil {
 	}
 	public static EntityManager getEntityManager() {
 		return factory.createEntityManager();
+	}
+	public static Object getPrimaryKey(Object entidade) {
+		return factory.getPersistenceUnitUtil().getIdentifier(entidade);
 	}
 
 }

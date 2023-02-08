@@ -3,7 +3,8 @@
 	
 	<persistence-unit name="projetoHibernateTest">
 	 
-	
+	<class>model.usuarioPessoa</class>
+	<class>model.TelefoneUser</class>
 	
 	<properties>
 	<property name="hibernate.connection.driver_class" value="org.postgresql.Driver"/>
@@ -11,7 +12,7 @@
 	<property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect"/>
 	<property name="hibernate.connection.username" value="postgres"/>
 	<property name="hibernate.connection.password" value="nata35218284"/>
-	<property name="hibernate.hbm2dll.auto" value="update"/>
+	<property name="hibernate.hbm2ddl.auto" value="update"/>
 	
 	</properties>
 	
